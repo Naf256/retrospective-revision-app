@@ -1,0 +1,65 @@
+* {
+	background-color: black;
+	color: whitesmoke;
+}
+.task {
+	background-color: hsl(0, 0%, 5%);
+	padding: 1rem;
+	width: 25rem;
+	margin-top: 0.5rem;
+	border-radius: 1rem;
+}
+
+h2 {
+	margin-left: 25%;
+}
+
+.task-edit {
+	background-color: hsl(0, 0%, 5%);
+	padding: 1rem;
+	width: 25rem;
+	margin-top: 0.5rem;
+	border-radius: 1rem;
+	font-size: 16px;
+	color: hsl(0, 0%, 70%);
+}
+
+.addinput {
+	background-color: hsl(0, 0%, 10%);
+	margin-top: 1rem;
+	border-style: none;
+	font-size: 16px;
+	color: hsl(0, 0%, 70%);
+	padding: 1rem;
+	width: 25rem;
+	border-radius: 0.5rem;
+}
+
+.addinput-wrapper {
+	position: fixed;
+	bottom: 1rem;
+}
+
+input[type="text"]:focus {
+  border: 2px solid #4CAF50;
+  outline: none; /* Remove default focus outline */
+}
+
+.addbutton {
+	margin-left: 1rem;
+	padding: 0.5rem 1rem 0.5rem 1rem;
+	border-radius: 0.5rem;
+}
+
+.addbutton:hover {
+	background-color: hsl(0, 0%, 10%);
+}
+
+.container {
+	display: flex;
+}
+
+.box {
+	margin-right: 12rem;
+	margin-left: 2rem;
+}

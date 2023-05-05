@@ -1,0 +1,22 @@
+GET http://localhost:3003/api/task
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5hZmlzIiwiaWQiOiI2NDM2NjBkMGVjNTU2YzNhMjYzZTU1ZjEiLCJpYXQiOjE2ODEzNjM0Mzh9.akLXWgT33U79YHfq2InA7HRAhaaGPJ4emgAOKTXsSH0
+
+###
+POST http://localhost:3003/api/task
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5hZmlzIiwiaWQiOiI2NDM2NjBkMGVjNTU2YzNhMjYzZTU1ZjEiLCJpYXQiOjE2ODEzMjU1ODd9.UkZpGzNIdDaDUu_Ey9C9V3CF1xI2B5hSqfZkb56c2Pk
+Content-Type: application/json
+
+{
+	"taskName": "if it works i am done for today"
+}
+
+###
+DELETE http://localhost:3003/api/task/6436f8078f47da7cb6e3b8cd
+
+###
+PUT http://localhost:3003/api/task/64379d8223ffdcca25366023
+Content-Type: application/json
+
+{
+	"name": "It is working and I am done for today"
+}
