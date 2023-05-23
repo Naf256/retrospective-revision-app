@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = 'render-test-hpmo.onrender.com/api/task'
+const baseUrl = '/api/task'
 
 
 const getAll = async (token: any) => {
